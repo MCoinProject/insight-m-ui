@@ -1,22 +1,22 @@
 # Insight UI
 
-A Litecoin blockchain explorer web application service for [Litecore Node](https://github.com/litecoin-project/litecore-node) using the [Insight API](https://github.com/litecoin-project/insight-lite-api).
+A Mcoin blockchain explorer web application service for [Mcore Node](https://github.com/mcoinproject/mcore-node) using the [Insight API](https://github.com/mcoinproject/insight-m-api).
 
 ## Quick Start
 
-Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Litecore](https://github.com/litecoin-project/litecore).
+Please see the guide at [https://bitcore.io/guides/full-node](https://bitcore.io/guides/full-node) for information about getting a block explorer running. This is only the front-end component of the block explorer, and is packaged together with all of the necessary components in [Mcore](https://github.com/mcoinproject/mcore).
 
 ## Getting Started
 
 To manually install all of the necessary components, you can run these commands:
 
 ```bash
-npm install -g litecore-node
-litecore-node create mynode
+npm install -g mcore-node
+mcore-node create mynode
 cd mynode
-litecore-node install insight-lite-api
-litecore-node install insight-lite-ui
-litecore-node start
+mcore-node install insight-m-api
+mcore-node install insight-m-ui
+mcore-node start
 ```
 
 Open a web browser to `http://localhost:3001/insight/`
@@ -70,11 +70,11 @@ compile***.
 
 ## Note
 
-For more details about the [Insight API](https://github.com/litecoin-project/insight-lite-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/litecoin-project/insight-lite-api).
+For more details about the [Insight API](https://github.com/mcoinproject/insight-m-api) configuration and end-points, go to [Insight API GitHub repository](https://github.com/mcoinproject/insight-m-api).
 
 ## Contribute
 
-Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/litecoin-project/insight-lite-ui).
+Contributions and suggestions are welcomed at the [Insight UI GitHub repository](https://github.com/mcoinproject/insight-m-ui).
 
 
 ## License
